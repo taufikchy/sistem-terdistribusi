@@ -1,0 +1,21 @@
+{
+  "name": "sistem_terdistibusi",
+  "version": "1.0.0",
+  "description": "A simple WebSocket chat application",
+  "main": "server.mjs",
+  "type": "module",    
+    "scripts": {
+    "start": "node server.mjs", 
+    "client": "node client.mjs"   
+  },
+  "keywords": [
+    "websocket",
+    "chat",
+    "nodejs"
+  ],
+  "author": "Taufik", 
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.5.0" 
+  }
+}
